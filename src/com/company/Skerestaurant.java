@@ -140,16 +140,16 @@ public class Skerestaurant {
             if (choice == 4) {
                 System.out.println("+------ Menu -------+--- Qty ---+----- Price ------+");
                 if (printPizza >= 1 && quantity >= 0) {
-                    System.out.printf("| Pizza\t\t\t\t| \t%6d  | \t\t%10d |\n", storePizza, Pizza(quantity));
-                    Total = Total + Pizza(quantity);
+                    System.out.printf("| Pizza\t\t\t\t| \t%6d  | \t\t%10d |\n", storePizza, Pizza(storePizza));
+                    Total = Total + Pizza(storePizza);
                 }
                 if (printChicken >= 1 && quantity >= 0) {
-                    System.out.printf("| Chickens\t\t\t| \t%6d  | \t\t%10d |\n", storeChickens, Chickens(quantity));
-                    Total = Total + Chickens(quantity);
+                    System.out.printf("| Chickens\t\t\t| \t%6d  | \t\t%10d |\n", storeChickens, Chickens(storeChickens));
+                    Total = Total + Chickens(storeChickens);
                 }
                 if (printCoke >= 1 && quantity >= 0) {
-                    System.out.printf("| Coke\t\t\t\t| \t%6d  | \t\t%10d |\n", storeCoke, Coke(quantity));
-                    Total = Total + Coke(quantity);
+                    System.out.printf("| Coke\t\t\t\t| \t%6d  | \t\t%10d |\n", storeCoke, Coke(storeCoke));
+                    Total = Total + Coke(storeChickens);
                 }
                 System.out.println("+-------------------+-----------+------------------+");
                 System.out.printf("| Total                         |\t\t%10d |\n", Total);
@@ -167,16 +167,16 @@ public class Skerestaurant {
 
             System.out.println("+------ Menu -------+--- Qty ---+----- Price ------+");
             if (printPizza >= 1 && quantity >= 0) {
-                System.out.printf("| Pizza\t\t\t\t| \t%6d  | \t\t%10d |\n", storePizza, Pizza(quantity));
-                Total = Total + Pizza(quantity);
+                System.out.printf("| Pizza\t\t\t\t| \t%6d  | \t\t%10d |\n", storePizza, Pizza(storePizza));
+                Total = Total + Pizza(storePizza);
             }
             if (printChicken >= 1 && quantity >= 0) {
-                System.out.printf("| Chickens\t\t\t| \t%6d  | \t\t%10d |\n", storeChickens, Chickens(quantity));
-                Total = Total + Chickens(quantity);
+                System.out.printf("| Chickens\t\t\t| \t%6d  | \t\t%10d |\n", storeChickens, Chickens(storeChickens));
+                Total = Total + Chickens(storeChickens);
             }
             if (printCoke >= 1 && quantity >= 0) {
-                System.out.printf("| Coke\t\t\t\t| \t%6d  | \t\t%10d |\n", storeCoke, Coke(quantity));
-                Total = Total + Coke(quantity);
+                System.out.printf("| Coke\t\t\t\t| \t%6d  | \t\t%10d |\n", storeCoke, Coke(storeCoke));
+                Total = Total + Coke(storeCoke);
             }
             System.out.println("+-------------------+-----------+------------------+");
             System.out.printf("| Total                         |\t\t%10d |\n",Total);
