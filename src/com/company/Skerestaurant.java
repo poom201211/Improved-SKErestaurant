@@ -10,18 +10,20 @@ public class Skerestaurant {
 
     public static int storePizza = 0,storeChickens = 0,storeCoke = 0,choice = 0,quantity = 0,printPizza = 0,printChicken = 0,printCoke = 0,finalTotal = 0;
 
+    final static int pricePizza = 250,priceChicken = 120,priceCoke = 45;
+
     public static int Pizza(int quantity) {
-        int totalPizza = quantity * 250;
+        int totalPizza = quantity * pricePizza;
         return totalPizza;
     }
 
     public static int Chickens(int quantity) {
-        int totalChick = quantity * 120;
+        int totalChick = quantity * priceChicken;
         return totalChick;
     }
 
     public static int Coke(int quantity) {
-        int totalCoke = quantity * 45;
+        int totalCoke = quantity * priceCoke;
         return totalCoke;
     }
 
