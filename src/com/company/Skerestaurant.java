@@ -8,7 +8,7 @@ public class Skerestaurant {
 
     public static Scanner scan = new Scanner(System.in);
 
-    public static int storePizza = 0,storeChickens = 0,storeCoke = 0,choice = 0,quantity = 0,printPizza = 0,printChicken = 0,printCoke = 0,finalTotal = 0;
+    public static int Total = 0,storePizza = 0,storeChickens = 0,storeCoke = 0,choice = 0,quantity = 0,printPizza = 0,printChicken = 0,printCoke = 0,finalTotal = 0;
 
     final static int pricePizza = 250,priceChicken = 120,priceCoke = 45;
 
@@ -31,7 +31,7 @@ public class Skerestaurant {
         int money = getIntReply("Enter change: ");
         money = money - total;
         int thousand = 0;
-        int fivehundred = 0;
+        int fiveHundred = 0;
         int hundred = 0;
         int fifty = 0;
         int twenty = 0;
@@ -45,7 +45,7 @@ public class Skerestaurant {
                 thousand = thousand + 1;
             } else if(money >= 500) {
                 money = money - 500;
-                fivehundred = fivehundred + 1;
+                fiveHundred = fiveHundred + 1;
             } else if(money >= 100){
                 money = money - 100;
                 hundred = hundred + 1;
@@ -71,8 +71,8 @@ public class Skerestaurant {
         }
         if(thousand != 0){
             System.out.println("1000 notes: " + thousand);
-        } if(fivehundred != 0){
-            System.out.println("500 notes: " + fivehundred);
+        } if(fiveHundred != 0){
+            System.out.println("500 notes: " + fiveHundred);
         } if(hundred != 0){
             System.out.println("100 notes: " + hundred);
         } if(fifty != 0){
@@ -88,7 +88,6 @@ public class Skerestaurant {
         } if(one != 0) {
             System.out.println("1 coins: " + one);
         }
-
     }
 
     public static void coupon(){
@@ -162,9 +161,6 @@ public class Skerestaurant {
 
     public static void changeMenu(){
         if (choice == 5) {
-
-            int Total = 0;
-
             System.out.println("+------ Menu -------+--- Qty ---+----- Price ------+");
             if (printPizza >= 1 && quantity >= 0) {
                 System.out.printf("| Pizza\t\t\t\t| \t%6d  | \t\t%10d |\n", storePizza, Pizza(storePizza));
@@ -187,18 +183,12 @@ public class Skerestaurant {
             System.out.println();
             coupon();
             System.out.print("===== Thank You =====");
-
         }
     }
 
     public static void main(String[] args) {
-
         showMenu();
-
         binMenu();
-
         changeMenu();
-
     }
-
 }
