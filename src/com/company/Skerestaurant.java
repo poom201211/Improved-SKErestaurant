@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import java.util.Scanner;
@@ -10,20 +12,26 @@ public class Skerestaurant {
 
     public static int Total = 0,storePizza = 0,storeChickens = 0,storeCoke = 0,choice = 0,quantity = 0,printPizza = 0,printChicken = 0,printCoke = 0,finalTotal = 0;
 
-    final static int pricePizza = 250,priceChicken = 120,priceCoke = 45;
+    final static int[] prices = new int[]{250,120,45};
+    //prices[0] = pizza = 250
+    //prices[1] = chicken = 120
+    //prices[2] = coke = 45
+    final static String[] showItem = new String[]{"Pizza","Chicken","Coke"};
+
+    final static List<Integer> totalQuantity = new ArrayList<>();
 
     public static int Pizza(int quantity) {
-        int totalPizza = quantity * pricePizza;
+        int totalPizza = quantity * prices[0];
         return totalPizza;
     }
 
     public static int Chickens(int quantity) {
-        int totalChick = quantity * priceChicken;
+        int totalChick = quantity * prices[1];
         return totalChick;
     }
 
     public static int Coke(int quantity) {
-        int totalCoke = quantity * priceCoke;
+        int totalCoke = quantity * prices[2];
         return totalCoke;
     }
 
@@ -105,15 +113,15 @@ public class Skerestaurant {
 
     public static void showMenu(){
         System.out.println("--------- Welcome to SKE Restaurant ---------");
-        System.out.println("1.) Pizza       250 Baht.");
-        System.out.println("2.) Chickens    120 Baht.");
-        System.out.println("3.) Coke        45 Baht.");
+        System.out.printf("1.) %s       %d Baht.\n",showItem[0],prices[0]);
+        System.out.printf("2.) %s     %d Baht.\n",showItem[1],prices[1]);
+        System.out.printf("3.) %s         %d Baht.\n",showItem[2],prices[2]);
         System.out.println("4.) Total");
         System.out.println("5.) Exit");
         System.out.println();
     }
 
-    public static void binMenu() {
+    public static void enterBinMenu() {
         do {
             choice = getIntReply("Enter your choice: ");
             if (choice == 1) {
@@ -125,13 +133,15 @@ public class Skerestaurant {
             }
             if (choice != 4 && choice != 5) {
                 quantity = getIntReply("Enter Quantity: ");
-
                 if (choice == 1) {
                     storePizza = storePizza + quantity;
+                    totalQuantity.add(quantity);
                 } else if (choice == 2) {
                     storeChickens = storeChickens + quantity;
+                    totalQuantity.add(quantity);
                 } else if (choice == 3) {
                     storeCoke = storeCoke + quantity;
+                    totalQuantity.add(quantity);
                 }
                 System.out.println();
             }
@@ -177,6 +187,12 @@ public class Skerestaurant {
             System.out.println("+-------------------+-----------+------------------+");
             System.out.printf("| Total                         |\t\t%10d |\n",Total);
             finalTotal = Total;
+            int sumQuantity = 0;
+            for (int i = 0; i < totalQuantity.size() ; i++){
+                sumQuantity += totalQuantity.get(i);
+            }
+            System.out.println("+-------------------+-----------+------------------+");
+            System.out.printf("| Total Quantity                |\t\t%10d |\n",sumQuantity);
             System.out.println("+-------------------+-----------+------------------+");
             System.out.println();
             Change(finalTotal);
@@ -188,7 +204,7 @@ public class Skerestaurant {
 
     public static void main(String[] args) {
         showMenu();
-        binMenu();
+        enterBinMenu();
         changeMenu();
     }
 }
