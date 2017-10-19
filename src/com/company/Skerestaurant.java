@@ -1,10 +1,6 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class Skerestaurant {
 
@@ -112,10 +108,15 @@ public class Skerestaurant {
     }
 
     public static void showMenu(){
+        RestaurantManager readMenu = new RestaurantManager();
+        String[] menu;
+        double[] price;
+        menu = readMenu.readFileName();
+        price = readMenu.readFilePrice();
         System.out.println("--------- Welcome to SKE Restaurant ---------");
-        System.out.printf("1.) %s       %d Baht.\n",showItem[0],prices[0]);
-        System.out.printf("2.) %s     %d Baht.\n",showItem[1],prices[1]);
-        System.out.printf("3.) %s         %d Baht.\n",showItem[2],prices[2]);
+        for(int i = 0; i < menu.length; i++){
+            System.out.printf("%d.) %s\t%10.2f Baht.\n",i+1,menu[i],price[i]);
+        }
         System.out.println("4.) Total");
         System.out.println("5.) Exit");
         System.out.println();
@@ -203,8 +204,10 @@ public class Skerestaurant {
     }
 
     public static void main(String[] args) {
+
         showMenu();
         enterBinMenu();
         changeMenu();
+
     }
 }
