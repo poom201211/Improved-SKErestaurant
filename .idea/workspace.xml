@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e281cf73-c80c-447a-86e5-ec90cc89c321" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/RestaurantManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IDK/com/company/RestaurantManager.class" afterPath="$PROJECT_DIR$/out/production/IDK/com/company/RestaurantManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IDK/com/company/Skerestaurant.class" afterPath="$PROJECT_DIR$/out/production/IDK/com/company/Skerestaurant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Skerestaurant.java" afterPath="$PROJECT_DIR$/src/com/company/Skerestaurant.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,35 +17,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Skerestaurant.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Skerestaurant.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+            <state relative-caret-position="1176">
+              <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+                <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+                <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
                 <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-                <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestaurantManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RestaurantManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+            <state relative-caret-position="63">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/menu.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,8 +74,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Skerestaurant.java" />
+        <option value="$PROJECT_DIR$/src/com/company/KeepMenu.java" />
+        <option value="$USER_HOME$/Desktop/menu.txt" />
         <option value="$PROJECT_DIR$/src/com/company/RestaurantManager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Skerestaurant.java" />
       </list>
     </option>
   </component>
@@ -98,7 +105,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/menu.txt" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RestaurantManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Skerestaurant" />
@@ -188,6 +195,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e281cf73-c80c-447a-86e5-ec90cc89c321" name="Default" comment="" />
@@ -204,12 +214,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10964912" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -225,7 +236,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -263,34 +273,169 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Skerestaurant.java</url>
-          <line>172</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/menu.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
           <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -310,16 +455,9 @@
         <state relative-caret-position="840">
           <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -339,16 +477,9 @@
         <state relative-caret-position="840">
           <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -368,16 +499,9 @@
         <state relative-caret-position="4284">
           <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -397,16 +521,9 @@
         <state relative-caret-position="840">
           <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -426,16 +543,9 @@
         <state relative-caret-position="4305">
           <caret line="205" column="19" lean-forward="false" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -455,16 +565,9 @@
         <state relative-caret-position="861">
           <caret line="205" column="19" lean-forward="false" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,16 +587,9 @@
         <state relative-caret-position="861">
           <caret line="205" column="19" lean-forward="false" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -513,16 +609,9 @@
         <state relative-caret-position="861">
           <caret line="205" column="19" lean-forward="false" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,16 +631,9 @@
         <state relative-caret-position="672">
           <caret line="111" column="5" lean-forward="false" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,16 +653,9 @@
         <state relative-caret-position="672">
           <caret line="111" column="5" lean-forward="false" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -600,16 +675,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -619,16 +687,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,16 +699,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -657,16 +711,9 @@
         <state relative-caret-position="609">
           <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,16 +723,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,16 +735,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,16 +747,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,16 +759,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,16 +771,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,16 +783,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,45 +795,40 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
             <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/KeepMenu.java" />
+    <entry file="file://$USER_HOME$/Desktop/menu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Pizza#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Chickens#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Coke#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#Change#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#coupon#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#getIntReply#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#enterBinMenu#0;class#Skerestaurant#0" expanded="false" />
-            <element signature="method#changeMenu#0;class#Skerestaurant#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/RestaurantManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        <state relative-caret-position="63">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skerestaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="method#isNumber#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#getStringReply#0;class#Skerestaurant#0" expanded="false" />
+            <element signature="method#showMenu#0;class#Skerestaurant#0" expanded="false" />
           </folding>
         </state>
       </provider>
