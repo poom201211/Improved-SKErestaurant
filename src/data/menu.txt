@@ -1,0 +1,4 @@
+Pizza; 199
+coke; 25
+steak; 89
+Hello; 10
