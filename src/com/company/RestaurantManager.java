@@ -11,7 +11,7 @@ Set menu file as RELATIVE PATH e.g: "data/menu.txt"
 
 public class RestaurantManager {
 
-    public static final String MENU_FILE = "data/menu.txt";
+    public static final String MENU_FILE = "src/data/menu.txt";
     private static String[] menuItems;
 
     private static double[] prices;
